@@ -15,7 +15,7 @@ It is a simple REST API that allows you to add an order to a message queue that 
 
 This app can connect to either RabbitMQ or Azure Service Bus using AMQP 1.0. To connect to either of these services, you will need to provide appropriate environment variables for connecting to the message queue.
 
-### Option 1: RabbitMQ
+### Option 1: RabbitMQss
 
 To run this against RabbitMQ. A docker-compose file is provided to make this easy. This will run RabbitMQ, the RabbitMQ Management UI, and enable the `rabbitmq_amqp1_0` plugin. The plugin is necessary to connect to RabbitMQ using AMQP 1.0.
 
